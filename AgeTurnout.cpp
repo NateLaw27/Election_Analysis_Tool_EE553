@@ -115,4 +115,40 @@ void AgeTurnout::displayStats() {
 
 }
 
+// @brief creates visaluization script of data and visualize it using gnuplot with system commands
+void AgeTurnout::visualizeData() {
+    // create data files for each age group and write data into them.
+    ofstream file60("60.dat");
+    ofstream file18("18-29.dat");
+    ofstream file30("30-44.dat");
+    ofstream file45("45-59.dat");
+
+    for(int i = 0; i < years.size(); i++) {
+        file60<< years[i]<< " "<< (sixty[i]*100) << "\n";
+        file18<< years[i]<< " "<< (eighteen[i]*100) << "\n";
+        file30<< years[i]<< " "<< (thirty[i]*100) << "\n";
+        file45<< years[i]<< " " << (fortyFive[i]*100) << "\n";
+    }
+
+    file60.close();
+    file18.close();
+    file30.close();
+    file45.close();
+
+    // gnuplot script
+    ofstream script("age_turnout.plt");
+    script << "set title 'Voter Turnout by Age Group'\n"
+           << "set xlabel 'Year'\n"
+           << "set ylabel 'Turnout Rate (%)'\n"
+           << "set grid\n"
+           << "plot '60.dat' with linespoints title '60+', \\\n"
+           << "'18-29.dat' with linespoints title '18-29', \\\n"
+           << "'30-44.dat' with linespoints title '30-44', \\\n"
+           << "'45-59.dat' with linespoints title '45-59'\n";
+
+    script.close();
+
+    system("gnuplot -persistent age_turnout.plt");
+}
+
 
