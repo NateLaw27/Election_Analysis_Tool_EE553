@@ -1,0 +1,5 @@
+1. Download gnuplot from here: http://www.gnuplot.info/download.html
+
+2. Run .exe file and install
+
+3. After installation, Add the path to gnuplot's bin folder (Example: C:\Program Files\gnuplot\bin)

@@ -1,0 +1,15 @@
+As of 12/12/2024, the winner of the 2024 Presidential Election is Donald Trump.
+Donald Trump, the Republican Party Candidate, achieved 312 electoral votes (77,269,255 votes, 49.9% of the popular vote). 
+Kamala Harris, the Democratic Party Candidate, was the runner-up and achieved 226 electoral votes 
+(74,983,555 votes, 48.4% of the popular vote). 
+Other candidates such as Jill Stein, Robert Kennedy, Chase Oliver, etc. received 0 electoral votes with a combined total votes of 2,566,987.
+
+
+Kamala Harris (Dem): Maine, Vermont, New Hampshire, Massachusetts, New York, New Jersey, Rhode Island, 
+                    Connecticut, Delaware, Maryland, Washington DC, Virginia, Illinois, Minnesota, Colorado, 
+                    New Mexico, Washington, Oregon, California, and Hawaii
+
+Donald Trump (Rep): Pennsylvania, West Virginia, Ohio, North Carolina, South Carolina, Kentucky, Tennessee, 
+                    Georgia, Florida, Alabama, Mississippi, Indiana, Michigan, Wisconsin, Iowa, Missouri, Arkansas,
+                    Louisiana, Texas, Oklahoma, Kansas, Nebraska, South Dakota, North Dakota, Montana, Wyoming, Idaho,
+                    Nevada, Utah, Arizona, Alaska
